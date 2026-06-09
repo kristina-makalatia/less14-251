@@ -1,0 +1,60 @@
+.form-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.input-el {
+  width: 100%;
+  height: 60px;
+  color: red;
+  padding: 10px;
+  margin: 15px 0;
+}
+.form-wraper {
+  max-width: 700px;
+  width: 100%;
+}
+.btn-submit {
+  max-width: 350px;
+  width: 100%;
+  height: 50px;
+  background-color: lightblue;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+}
+.input-el::-webkit-input-placeholder, .textarea-element::-webkit-input-placeholder {
+  color: blue;
+}
+.input-el::-moz-placeholder, .textarea-element::-moz-placeholder {
+  color: blue;
+}
+.input-el:-ms-input-placeholder, .textarea-element:-ms-input-placeholder {
+  color: blue;
+}
+.input-el::-ms-input-placeholder, .textarea-element::-ms-input-placeholder {
+  color: blue;
+}
+.input-el::placeholder,
+.textarea-element::placeholder {
+  color: blue;
+}
+.textarea-element {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  resize: none;
+}
+
+input,
+textarea,
+button,
+select {
+  outline: none;
+}
+
+
